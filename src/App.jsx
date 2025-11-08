@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
@@ -110,10 +111,7 @@ function App() {
 					</footer>
 				</section>
 			</main>
-
-			<footer>
-				<small>&copy; 2025 DevJobs. Todos los derechos reservados.</small>
-			</footer>
+			<Footer />
 		</div>
 	);
 }
