@@ -1,0 +1,312 @@
+[
+  {
+    "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a4",
+    "title": "Desarrollador de Software Senior",
+    "company": "Tech Solutions Inc.",
+    "location": "Remoto",
+    "description": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+    "data": {
+      "technologies": ["react", "nodejs", "javascript", "typescript", "html", "css", "git"],
+      "mode": "remote",
+      "seniority": "senior"
+    }
+  },
+  {
+    "id": "d35b2c89-5d60-4f26-b19a-6cfb2f1a0f57",
+    "title": "Analista de Datos",
+    "company": "Data Driven Co.",
+    "location": "Ciudad de México",
+    "description": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
+    "data": {
+      "technologies": ["python", "sql", "r", "pandas", "numpy", "tableau", "powerbi"],
+      "mode": "mexico",
+      "seniority": "junior"
+    }
+  },
+  {
+    "id": "e31f9a92-61d7-4b7a-b3a2-91e8c1f40b2d",
+    "title": "Desarrollador de Aplicaciones Móviles",
+    "company": "Mobile Apps Ltd.",
+    "location": "Medellin",
+    "description": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
+    "data": {
+      "technologies": ["swift", "kotlin", "react native", "flutter", "android studio", "xcode"],
+      "mode": "colombia",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "f62d8a34-923a-4ac2-9b0b-14e0ac2f5405",
+    "title": "Ingeniero de DevOps",
+    "company": "Cloud Services SA",
+    "location": "Remoto",
+    "description": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.",
+    "data": {
+      "technologies": ["aws", "azure", "gcp", "docker", "kubernetes", "jenkins", "terraform"],
+      "mode": "remote",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "a9f31a8e-ec38-4fd3-9114-88cc6d37a92b",
+    "title": "Diseñador UX/UI",
+    "company": "Creative Minds Studio",
+    "location": "Barcelona",
+    "description": "Estamos buscando un diseñador UX/UI con pasión por crear experiencias digitales excepcionales. Se requiere experiencia en Figma, diseño centrado en el usuario y colaboración con equipos de desarrollo.",
+    "data": {
+      "technologies": ["figma", "adobe xd", "sketch", "photoshop", "illustrator", "prototyping"],
+      "mode": "españa",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "c1b65b42-68c5-4f1c-a8c2-8d52c5a7a5d1",
+    "title": "Administrador de Bases de Datos",
+    "company": "Secure Data Corp.",
+    "location": "CABA",
+    "description": "Se busca un administrador de bases de datos con experiencia en PostgreSQL y MySQL. El candidato deberá asegurar la disponibilidad, seguridad y rendimiento de las bases de datos de producción.",
+    "data": {
+      "technologies": ["postgresql", "mysql", "mongodb", "redis", "sql", "backup recovery"],
+      "mode": "argentina",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "bb8f2a99-6a20-4f9e-912a-16f54a49b8c3",
+    "title": "Especialista en Ciberseguridad",
+    "company": "SafeNet Solutions",
+    "location": "Remoto",
+    "description": "Buscamos un especialista en ciberseguridad con conocimientos en protección de infraestructuras, análisis de vulnerabilidades y respuesta ante incidentes. Se valorará experiencia con SIEM y certificaciones de seguridad.",
+    "data": {
+      "technologies": ["splunk", "wireshark", "metasploit", "nessus", "firewalls", "siem", "soc"],
+      "mode": "remote",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "fe7b2c54-4f47-4e2b-9e87-2b5413a6b24f",
+    "title": "Product Manager",
+    "company": "NextGen Technologies",
+    "location": "Madrid",
+    "description": "Estamos buscando un Product Manager con experiencia en la definición y lanzamiento de productos digitales. Se requiere capacidad analítica, liderazgo y conocimiento en metodologías ágiles.",
+    "data": {
+      "technologies": ["jira", "confluence", "scrum", "kanban", "analytics", "product strategy"],
+      "mode": "españa",
+      "seniority": "senior"
+    }
+  },
+  {
+    "id": "a71f7a92-56d9-4b42-9f16-cb29b40e5f2c",
+    "title": "Frontend Developer",
+    "company": "Bright Web Studio",
+    "location": "Guadalajara",
+    "description": "Buscamos un desarrollador frontend con experiencia en React, TypeScript y Tailwind CSS. Se valorará conocimiento en optimización de rendimiento y accesibilidad web.",
+    "data": {
+      "technologies": [
+        "react",
+        "typescript",
+        "tailwind css",
+        "javascript",
+        "html5",
+        "css3",
+        "webpack"
+      ],
+      "mode": "mexico",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "f91e4c7b-3840-43da-8ad7-3a52e2a8cf1d",
+    "title": "Backend Developer",
+    "company": "APIWorks",
+    "location": "Bogotá",
+    "description": "Estamos buscando un desarrollador backend con experiencia en Node.js, Express y bases de datos NoSQL. Se requiere conocimiento en arquitectura de microservicios.",
+    "data": {
+      "technologies": [
+        "nodejs",
+        "express",
+        "mongodb",
+        "redis",
+        "rest api",
+        "microservices",
+        "docker"
+      ],
+      "mode": "colombia",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "b65a3c9f-b174-4d86-b8a2-9cf9b1e13a22",
+    "title": "Ingeniero de Machine Learning",
+    "company": "AI Labs",
+    "location": "Remoto",
+    "description": "Buscamos un ingeniero de machine learning con experiencia en modelos de predicción y procesamiento de datos. Se valorará conocimiento en TensorFlow, PyTorch y MLOps.",
+    "data": {
+      "technologies": [
+        "python",
+        "tensorflow",
+        "pytorch",
+        "scikit-learn",
+        "mlops",
+        "docker",
+        "kubernetes"
+      ],
+      "mode": "remote",
+      "seniority": "senior"
+    }
+  },
+  {
+    "id": "e8d13c45-36cb-46cf-8f9d-8a0a7b532b8b",
+    "title": "QA Automation Engineer",
+    "company": "Quality First",
+    "location": "Lima",
+    "description": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
+    "data": {
+      "technologies": [
+        "selenium",
+        "cypress",
+        "playwright",
+        "jest",
+        "jenkins",
+        "gitlab ci",
+        "test automation"
+      ],
+      "mode": "peru",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "d2e93b8a-0b41-4d09-9a52-36a0f418d493",
+    "title": "Administrador de Sistemas",
+    "company": "InfraTech Global",
+    "location": "Santiago de Chile",
+    "description": "Buscamos un administrador de sistemas con experiencia en Linux, Docker y monitoreo de servidores. Conocimiento en scripting Bash o Python será un plus.",
+    "data": {
+      "technologies": ["linux", "docker", "bash", "python", "monitoring", "ansible", "nginx"],
+      "mode": "chile",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "cc0c1fae-4e85-4e2c-9b02-f12f9df8a2c9",
+    "title": "Scrum Master",
+    "company": "Agile Minds",
+    "location": "Madrid",
+    "description": "Estamos buscando un Scrum Master con experiencia en metodologías ágiles y gestión de equipos multidisciplinarios. Certificación Scrum Master deseable.",
+    "data": {
+      "technologies": [
+        "scrum",
+        "kanban",
+        "jira",
+        "confluence",
+        "agile methodology",
+        "team leadership"
+      ],
+      "mode": "españa",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "a2f1d8c6-b72c-45f5-bcc5-5c1d1f39b0b1",
+    "title": "Soporte Técnico Nivel 2",
+    "company": "HelpDesk Pro",
+    "location": "Monterrey",
+    "description": "Buscamos un técnico de soporte con habilidades en resolución de incidencias, redes y sistemas operativos. Se requiere atención al detalle y excelente trato con el usuario.",
+    "data": {
+      "technologies": [
+        "windows",
+        "linux",
+        "networking",
+        "troubleshooting",
+        "helpdesk",
+        "remote support"
+      ],
+      "mode": "mexico",
+      "seniority": "junior"
+    }
+  },
+  {
+    "id": "d8e9f2a1-4b5c-6d7e-8f9a-1b2c3d4e5f6a",
+    "title": "Data Scientist",
+    "company": "Analytics Pro",
+    "location": "Remoto",
+    "description": "Buscamos un científico de datos con experiencia en modelos predictivos y análisis estadístico. El candidato ideal debe tener conocimientos en machine learning, procesamiento de datos y visualización.",
+    "data": {
+      "technologies": ["python", "r", "sql", "pandas", "scikit-learn", "tensorflow", "tableau"],
+      "mode": "remote",
+      "seniority": "senior"
+    }
+  },
+  {
+    "id": "f3a4b5c6-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+    "title": "Cloud Architect",
+    "company": "Cloud Innovations",
+    "location": "Buenos Aires",
+    "description": "Estamos buscando un arquitecto cloud con experiencia en diseño de infraestructuras escalables y seguras. Conocimiento avanzado en servicios cloud y arquitecturas de microservicios.",
+    "data": {
+      "technologies": [
+        "aws",
+        "azure",
+        "kubernetes",
+        "terraform",
+        "docker",
+        "ci/cd",
+        "microservices"
+      ],
+      "mode": "argentina",
+      "seniority": "senior"
+    }
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "Full Stack Developer",
+    "company": "Digital Solutions",
+    "location": "Bogotá",
+    "description": "Necesitamos un desarrollador full stack con experiencia en ambas partes del desarrollo. Conocimiento en React para frontend y Node.js para backend, así como bases de datos SQL.",
+    "data": {
+      "technologies": ["react", "nodejs", "javascript", "postgresql", "express", "html", "css"],
+      "mode": "colombia",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    "title": "Cybersecurity Analyst",
+    "company": "Secure Systems",
+    "location": "Ciudad de México",
+    "description": "Buscamos un analista de ciberseguridad para monitoreo de redes, detección de vulnerabilidades y respuesta a incidentes. Experiencia en herramientas SIEM y análisis de logs.",
+    "data": {
+      "technologies": [
+        "splunk",
+        "wireshark",
+        "nessus",
+        "metasploit",
+        "firewalls",
+        "ids/ips",
+        "soc"
+      ],
+      "mode": "mexico",
+      "seniority": "mid"
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "title": "React Native Developer",
+    "company": "Mobile First",
+    "location": "Remoto",
+    "description": "Estamos buscando un desarrollador React Native para crear aplicaciones móviles multiplataforma. Experiencia en desarrollo de apps nativas usando React Native y conocimientos en APIs.",
+    "data": {
+      "technologies": [
+        "react native",
+        "javascript",
+        "typescript",
+        "redux",
+        "apis",
+        "firebase",
+        "git"
+      ],
+      "mode": "remote",
+      "seniority": "mid"
+    }
+  }
+]

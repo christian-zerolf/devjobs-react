@@ -1,0 +1,42 @@
+.jobCard {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  margin: 0;
+
+  gap: 1rem;
+
+  &.isHidden {
+    display: none;
+  }
+
+  .jobTitle {
+    color: var(--text-primary);
+  }
+
+  .jobTags {
+    font-size: 0.875rem;
+    opacity: 0.75;
+  }
+
+  .jobDescription {
+    margin-top: 0.5rem;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .buttonApplyJob {
+    height: fit-content;
+    background: #09f;
+
+    &.isApplied {
+      background: #4caf50;
+      pointer-events: none;
+    }
+  }
+}
