@@ -6,6 +6,7 @@ export function JobCard({ job }) {
 
   const handleApplyClick = (e) => {
     isApplied ? setIsApplied(false) : setIsApplied(true);
+
     e.currentTarget.blur();
   };
 

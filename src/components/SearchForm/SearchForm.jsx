@@ -1,10 +1,37 @@
-export function SearchForm() {
+import { useId } from "react";
+
+export function SearchForm({ onSearch, onTextFilter }) {
+  const idText = useId();
+  const idTechnology = useId();
+  const idLocation = useId();
+  const idExperienceLevel = useId();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+
+    const filters = {
+      search: formData.get(idText),
+      technology: formData.get(idTechnology),
+      location: formData.get(idLocation),
+      experienceLevel: formData.get(idExperienceLevel),
+    };
+
+    onSearch(filters);
+  };
+
+  const handleTextChange = (event) => {
+    const text = event.target.value;
+    onTextFilter(text);
+  };
+
   return (
     <section className="jobs-search">
       <h1>Encuentra tu próximo trabajo</h1>
       <p>Explora miles de oportunidades en el sector tecnológico.</p>
 
-      <form id="jobs-search-form" role="search">
+      <form onChange={handleSubmit} id="jobs-search-form" role="search">
         <div className="search-bar">
           <svg
             className="icon icon-tabler icons-tabler-outline icon-tabler-search"
@@ -24,16 +51,19 @@ export function SearchForm() {
           </svg>
 
           <input
-            name="search"
+            name={idText}
+            onChange={handleTextChange}
             id="jobs-search-input"
-            required
             type="text"
             placeholder="Buscar trabajos, empresas o habilidades"
           />
+          <button type="submit" style={{ position: "absolute", right: "4px" }}>
+            Buscar
+          </button>
         </div>
 
         <div className="search-filters">
-          <select name="technology" id="filter-technology">
+          <select name={idTechnology} id="filter-technology">
             <option value="">Tecnología</option>
             <optgroup label="Lenguajes de Programación">
               <option value="javascript">JavaScript</option>
@@ -70,7 +100,7 @@ export function SearchForm() {
             <option value="figma">Figma</option>
           </select>
 
-          <select name="location" id="filter-location">
+          <select name={idLocation} id="filter-location">
             <option value="">Ubicación</option>
             <option value="argentina">Argentina</option>
             <option value="chile">Chile</option>
@@ -81,7 +111,7 @@ export function SearchForm() {
             <option value="remote">Remoto</option>
           </select>
 
-          <select name="seniority" id="filter-seniority">
+          <select name={idExperienceLevel} id="filter-seniority">
             <option value="">Nivel de experiencia</option>
             <option value="junior">Junior</option>
             <option value="mid">Mid-level</option>
