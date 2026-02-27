@@ -1,4 +1,4 @@
-import { useRouter } from "../hooks/useRouter";
+import { useRouter } from "../hooks";
 
 export function HomePage() {
   const { navigateTo } = useRouter();
