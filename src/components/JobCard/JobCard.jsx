@@ -16,11 +16,11 @@ export function JobCard({ job }) {
   return (
     <article className={styles.jobCard}>
       <div>
-        <h3 className={styles.jobTitle}>{job.title}</h3>
+        <h3 className={styles.jobTitle}>{job.titulo}</h3>
         <small className={styles.jobTags}>
-          {job.company} | {job.location}
+          {job.empresa} | {job.ubicacion}
         </small>
-        <p className={styles.jobDescription}>{job.description}</p>
+        <p className={styles.jobDescription}>{job.descripcion}</p>
       </div>
 
       <button

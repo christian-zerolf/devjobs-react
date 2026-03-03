@@ -4,7 +4,7 @@ export function Route({ path, component: Component }) {
   const { currentPath } = useRouter();
 
   if (path === "*") {
-    const otherRoutes = ["/", "/search"];
+    const otherRoutes = ["/", "/search", "/contact"];
     if (!otherRoutes.includes(currentPath)) {
       // return <Component />;
       return <Component />;

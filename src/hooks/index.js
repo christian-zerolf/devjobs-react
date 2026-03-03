@@ -1,2 +1,3 @@
-export * from "./useRouter/useRouter.jsx";
-export * from "./useSearchForm/useSearchForm.jsx";
+export * from "./useFilters.jsx";
+export * from "./useRouter.jsx";
+export * from "./useSearchForm.jsx";
