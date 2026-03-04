@@ -1,9 +1,12 @@
 import { useState } from "react";
 
+let timeoutId = null;
+
 export function useSearchForm({
   idTechnology,
   idLocation,
   idExperienceLevel,
+  idText,
   onSearch,
   onTextFilter,
 }) {
@@ -13,6 +16,10 @@ export function useSearchForm({
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
+
+    if (event.target.name === idText) {
+      return;
+    }
 
     const filters = {
       technology: formData.get(idTechnology),
@@ -25,8 +32,17 @@ export function useSearchForm({
 
   const handleTextChange = (event) => {
     const text = event.target.value;
-    setSearchText(text);
-    onTextFilter(text);
+    setSearchText(text); // actualiza el input inmediatamente
+    /***
+     * Debounce: cancelar el timeout anterior
+     */
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+
+    timeoutId = setTimeout(() => {
+      onTextFilter(text);
+    }, 500);
   };
 
   return {

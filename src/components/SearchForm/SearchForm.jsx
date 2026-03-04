@@ -11,6 +11,7 @@ export function SearchForm({ onSearch, onTextFilter }) {
     idTechnology,
     idLocation,
     idExperienceLevel,
+    idText,
     onSearch,
     onTextFilter,
   });
