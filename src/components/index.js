@@ -6,3 +6,4 @@ export * from "./Link/Link.jsx";
 export * from "./Pagination/Pagination.jsx";
 export * from "./Route/Route.jsx";
 export * from "./SearchForm/SearchForm.jsx";
+export * from "./Title/Title.jsx";

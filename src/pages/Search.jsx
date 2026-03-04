@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { SearchForm, JobListings, Pagination } from "../components";
+import { SearchForm, JobListings, Pagination, Title } from "../components";
 import { useFilters } from "../hooks";
 
 export function SearchPage() {
@@ -17,12 +16,13 @@ export function SearchPage() {
     handleTextFilter,
   } = useFilters();
 
-  useEffect(() => {
-    document.title = `Resultados: ${total}, Página ${currentPage} - DevJobs`;
-  }, [total, currentPage]);
+  const title = loading
+    ? `Cargando... - DevJobs`
+    : `Resultados: ${total}, Página ${currentPage} - DevJobs`;
 
   return (
     <main>
+      <Title text={title} />
       <SearchForm onSearch={handleSearch} onTextFilter={handleTextFilter} />
 
       <section>

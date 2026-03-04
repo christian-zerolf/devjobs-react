@@ -1,4 +1,5 @@
 import { useRouter } from "../hooks";
+import { Title } from "../components/";
 
 export function HomePage() {
   const { navigateTo } = useRouter();
@@ -14,8 +15,11 @@ export function HomePage() {
     navigateTo(url);
   };
 
+  const title = `DevJobs - ${new Date().getFullYear()}`;
+
   return (
     <main>
+      <Title text={title} />
       <section>
         <img src="../background.webp" width="200" />
 
